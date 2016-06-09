@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site
+      mirrorsURL="http://www.eclipse.org/downloads/download.php?file=/modeling/emft/featuremodel/update-site/site.xml&amp;format=xml">
+   <description url="http://download.eclipse.org/modeling/emft/featuremodel/update-site">
+      EMF Feature Model, a uniform representation for variability information
+   </description>
+   <feature url="features/org.eclipse.featuremodel.feature_0.7.1.jar" id="org.eclipse.featuremodel.feature" version="0.7.1">
+      <category name="EMF Feature Model"/>
+   </feature>
+   <feature url="features/org.eclipse.featuremodel.pv.feature_0.7.1.jar" id="org.eclipse.featuremodel.pv.feature" version="0.7.1">
+      <category name="pv EMF Feature Model"/>
+   </feature>
+   <category-def name="EMF Feature Model" label="EMF Feature Model"/>
+   <category-def name="pv EMF Feature Model" label="pure::variants EMF Feature Model"/>
+</site>

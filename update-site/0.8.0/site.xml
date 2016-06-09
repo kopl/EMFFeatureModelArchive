@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.eclipse.featuremodel.diagrameditor.feature_0.8.0.jar" id="org.eclipse.featuremodel.diagrameditor.feature" version="0.8.0">
+      <category name="emffeaturemodel"/>
+   </feature>
+   <feature url="features/org.eclipse.featuremodel.feature_0.8.0.jar" id="org.eclipse.featuremodel.feature" version="0.8.0">
+      <category name="emffeaturemodel"/>
+   </feature>
+   <feature url="features/org.eclipse.featuremodel.evaluation.feature_0.8.0.jar" id="org.eclipse.featuremodel.evaluation.feature" version="0.8.0">
+      <category name="emffeaturemodel"/>
+   </feature>
+   <category-def name="emffeaturemodel" label="EMF Feature Model">
+      <description>
+         The ecore meta model including edit and editor plugins.
+      </description>
+   </category-def>
+</site>
